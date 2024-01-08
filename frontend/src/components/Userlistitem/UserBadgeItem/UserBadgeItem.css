@@ -1,0 +1,25 @@
+.tagbox{
+    display: flex;
+    flex-direction: row;
+    min-height: 1rem;
+    background-color: blanchedalmond;
+    border-radius: 0.9rem;
+    width: 4.5rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #deleteuser{
+    scale: 0.7;
+    cursor: pointer;
+  }
+  #deleteuser:hover{
+    background-color: gray;
+    border-radius: 100%;
+  }
+  .username{
+    margin-left: 0.5rem;
+    width: 1.8;
+    height: 1rem;
+    overflow: hidden;
+    margin-bottom: 4px;
+  }

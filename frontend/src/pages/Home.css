@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+.total {
+  min-height: 100vh;
+  background-image: url("../background .jpg");
+  background-size: cover;
+  background-position: center;
+  /* opacity: 90%; */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.name {
+  display: flex;
+  min-width: 30rem;
+  min-height: 4rem;
+  margin-top: 4.3rem;
+  font-family: Work Sans;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  border-radius: 0.8rem;
+  background-color: #A2B5BB;
+  color: black;
+  opacity: 85%;
+  align-items: center;
+  justify-content: center;
+}
+.options {
+  display: flex;
+  min-width: 29.5rem;
+  min-height: 34rem;
+  border-radius: 1rem;
+  background-color: #A2B5BB;
+  color: black;
+  opacity: 88%;
+  align-items: center;
+  flex-direction: column;
+}
+.buttonbox {
+  display: flex;
+  flex-direction: row;
+  gap: 3.25rem;
+}
+.buttons {
+  min-height: 2.5rem;
+  display: flex;
+  width: 11rem;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.2rem;
+  background-color: aliceblue;
+  border-color: aliceblue;
+}
+.buttons:hover {
+  cursor: pointer;
+  border-color: black;
+}
+.buttons:focus {
+  border-color: black;
+}
+.boxes{
+    margin-top: 0.1rem;
+}

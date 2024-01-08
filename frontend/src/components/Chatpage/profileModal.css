@@ -1,0 +1,53 @@
+.modal-full {
+  background-color:rgba(189, 189, 189, 0.7) ;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+}
+h5 {
+  font-size: 2rem;
+  margin: 0;
+}
+.modalpic {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+}
+.modal {
+  top: 25%;
+  right: 36%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:rgb(218, 211, 211);
+  width: 22rem;
+  height: 22rem;
+  border-radius: 2rem;
+  border-color: black;
+  border-style: double;
+  border-width: 4px;
+  gap: 1rem;
+}
+p {
+  margin-bottom: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.back {
+  background-color: #212121;
+  color: white;
+  font-family: poppins;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition-duration: 0.2s;
+}
+.back:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}

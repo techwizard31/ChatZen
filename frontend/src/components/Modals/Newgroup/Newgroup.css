@@ -1,0 +1,58 @@
+.boxbackground {
+  background-color: rgba(189, 189, 189, 0.7);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+}
+#close {
+  margin-top: 0.15rem;
+  transform: translateX(9.9rem);
+  margin-bottom: 0;
+}
+.addbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: beige;
+  width: 22rem;
+  min-height: 15rem;
+  border-radius: 8px;
+  top: 30%;
+  right: 38%;
+  position: fixed;
+}
+.create-gc {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+.gcinput {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 7px;
+  padding-inline-start: 1rem;
+  margin-bottom: 1rem;
+}
+.gcinput:focus {
+  border-color: #1778f2;
+  border-width: 0.05em;
+}
+.createbutton {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 7rem;
+  height: 2.2rem;
+  border-radius: 7px;
+  background-color: #1778f2;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 0.9rem;
+}
+.createbutton:hover {
+  background-color: white;
+  color: #1778f2;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}

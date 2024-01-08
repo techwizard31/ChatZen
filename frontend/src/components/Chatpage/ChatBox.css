@@ -1,0 +1,135 @@
+.mainchatbox {
+  display: flex;
+  flex-direction: column;
+  width: 55.5rem;
+  background-color: lightgray;
+  margin-left: 2.5rem;
+  margin-top: 1rem;
+  border-radius: 1.8rem;
+  height: 41rem;
+}
+@media  screen and (min-width:1400px)and (max-width:1460px){
+  .mainchatbox{
+    width: 52rem;
+  }
+}
+@media  screen and (min-width:1350px)and (max-width:1400px){
+  .mainchatbox{
+    width: 49rem;
+    margin-left: 2rem;
+  }
+}
+@media  screen and (min-width:1275px)and (max-width:1350px){
+  .mainchatbox{
+    width: 47rem;
+    margin-left: 1.5rem;
+  }
+}
+@media  screen and (min-width:1240px)and (max-width:1275px){
+  .mainchatbox{
+    width: 46rem;
+    margin-left: 1.5rem;
+  }
+}
+@media  screen and (min-width:1225px)and (max-width:1240px){
+  .mainchatbox{
+    width: 45rem;
+    margin-left: 1.5rem;
+  }
+}
+@media  screen and (min-width:1200px)and (max-width:1225px){
+  .mainchatbox{
+    width: 43.5rem;
+    margin-left: 1.5rem;
+  }
+}
+@media  screen and (min-width:1150px)and (max-width:1200px){
+  .mainchatbox{
+    width: 43.5rem;
+    margin-left: 1.5rem;
+  }
+}
+@media  screen and (min-width:1090px)and (max-width:1150px){
+  .mainchatbox{
+    width: 42.3rem;
+    margin-left: 1.2rem;
+  }
+}
+@media  screen and (min-width:1025px)and (max-width:1090px){
+  .mainchatbox{
+    width: 41rem;
+    margin-left: 1.1rem;
+  }
+}
+@media  screen and (min-width:985px)and (max-width:1025px){
+  .mainchatbox{
+    width: 39.5rem;
+    margin-left: 1.1rem;
+  }
+}
+@media  screen and (min-width:940px)and (max-width:985px){
+  .mainchatbox{
+    width: 38rem;
+    margin-left: 1.1rem;
+  }
+}
+@media  screen and (min-width:925px)and (max-width:940px){
+  .mainchatbox{
+    width: 37rem;
+    margin-left: 1rem;
+  }
+}
+@media  screen and (min-width:885px)and (max-width:925px){
+  .mainchatbox{
+    width: 36rem;
+    margin-left: 0.9rem;
+  }
+}
+@media  screen and (min-width:870px)and (max-width:885px){
+  .mainchatbox{
+    width: 35rem;
+    margin-left: 0.8rem;
+  }
+}
+@media  screen and (min-width:835px)and (max-width:870px){
+  .mainchatbox{
+    width: 34rem;
+    margin-left: 0.7rem;
+  }
+}
+@media  screen and (min-width:810px)and (max-width:835px){
+  .mainchatbox{
+    width: 32.5rem;
+    margin-left: 0.7rem;
+  }
+}
+@media  screen and (min-width:780px)and (max-width:810px){
+  .mainchatbox{
+    width: 32rem;
+    margin-left: 0.6rem;
+  }
+}
+@media  screen and (min-width:750px)and (max-width:780px){
+  .mainchatbox{
+    width: 30.5rem;
+    margin-left: 0.5rem;
+  }
+}
+@media  screen and (min-width:730px)and (max-width:750px){
+  .mainchatbox{
+    width: 29.5rem;
+    margin-left: 0.4rem;
+  }
+}
+@media  screen and (min-width:715px)and (max-width:730px){
+  .mainchatbox{
+    width: 27.5rem;
+    margin-left: 0.7rem;
+  }
+}
+@media  screen and (min-width:700px)and (max-width:715px){
+  .mainchatbox{
+    width: 27.5rem;
+    margin-left: 0.7rem;
+  }
+}

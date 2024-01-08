@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+.singleline {
+  display: flex;
+  height: 41rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  top: 50%;
+}
+.chatnamemodal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 55.5rem;
+  border-top-left-radius: 1.8rem;
+  border-top-right-radius: 1.8rem;
+  background-color: grey;
+  height: 3.5rem;
+}
+.damagecontrol{
+  margin-top: 1rem;
+  display: flex;
+  height: 36rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header {
+  font-size: 2.5rem;
+  margin-left: 1.8rem;
+  font-family: Roboto Slab;
+  font-style: italic;
+}
+#visible {
+  margin-right: 2rem;
+  cursor: pointer;
+  scale: 1.35;
+}
+.anivarya {
+  background-color: rgba(189, 189, 189, 0.7);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+}
+.puramodal {
+  top: 28%;
+  right: 39%;
+  display: flex;
+  flex-direction: column;
+  min-height: 17rem;
+  width: 22rem;
+  align-items: center;
+  background-color: beige;
+  border-radius: 8px;
+  position: fixed;
+}
+#close1 {
+  margin-top: 0.15rem;
+  transform: translateX(9.9rem);
+  margin-bottom: 0;
+}
+#close1:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  border-radius: 100%;
+}
+.chatname{
+  width: 14rem;
+  height: 2rem;
+  border-radius: 7px;
+  padding-inline-start: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 0.2rem;
+}
+.chatname:focus {
+  border-color: #1778f2;
+  border-width: 0.05em;
+}
+.addusers {
+  width: 19rem;
+  height: 2rem;
+  border-radius: 7px;
+  padding-inline-start: 1rem;
+  margin-bottom: 0.8rem;
+}
+.addusers:focus {
+  border-color: #1778f2;
+  border-width: 0.05em;
+}
+.leave {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 7rem;
+  height: 2.2rem;
+  border-radius: 7px;
+  background-color: #dc143c;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+  font-size: 0.9rem;
+}
+.leave:hover {
+  background-color: white;
+  color: #dc143c;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+#backbox{
+  display:none;
+  margin-left: 1rem;
+}
+#backbox:hover {
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+  border-radius: 100%;
+}
+.updateit {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 5rem;
+  height: 2.2rem;
+  border-radius: 7px;
+  background-color: #1778f2;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 0.9rem;
+}
+.updateit:hover {
+  background-color: white;
+  color: #1778f2;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+.current {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.sareusers {
+  display: flex;
+  flex-direction: row;
+  width: 18rem;
+  overflow: scroll;
+  margin-bottom: 0.2rem;
+  gap: 0.2rem;
+  height: 1.5rem;
+  margin-top: 0.3rem;
+}
+.sareusers::-webkit-scrollbar {
+  display: none;
+}
+.sareusers {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.messageinput{
+  position: relative;
+  width: 48rem;
+  height: 2.5rem;
+  transform: translateX(0.7rem);
+  margin-bottom: 0.7rem;
+  padding-inline-start: 1rem;
+  border-radius: 8px;
+  background-color: white;
+  border-color: white;
+}
+.messageinput:focus {
+  border-width: 0.05rem;
+  border-color: #1778f2;
+}
+.messages{
+  width: 54rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.8rem;
+  height: 29rem;
+  overflow-y: scroll;
+}
+.messages::-webkit-scrollbar {
+  display: none;
+}
+.messages {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.fullsend{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+#send{
+  width: 3.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+}
+#send:hover{
+  color: white;
+  background-color: black;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+@media  screen and (min-width:1350px)and (max-width:1400px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 49rem;
+  }
+  .messages{
+    width: 47rem;
+  }
+  .messageinput{
+    width: 42rem;
+  }
+}
+@media  screen and (min-width:1400px)and (max-width:1460px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 52rem;
+  }
+  .messages{
+    width: 50rem;
+  }
+  .messageinput{
+    width: 43rem;
+  }
+}
+@media  screen and (min-width:1350px)and (max-width:1400px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 49rem;
+  }
+  .messages{
+    width: 47rem;
+  }
+  .messageinput{
+    width: 41rem;
+  }
+}
+@media  screen and (min-width:1275px)and (max-width:1350px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 47rem;
+  }
+  .messages{
+    width: 45rem;
+  }
+  .messageinput{
+    width: 40rem;
+  }
+}
+@media  screen and (min-width:1240px)and (max-width:1275px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 46rem;
+  }
+  .messages{
+    width: 44rem;
+  }
+  .messageinput{
+    width: 40rem;
+  }
+}
+@media  screen and (min-width:1225px)and (max-width:1240px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 45rem;
+  }
+  .messages{
+    width: 43rem;
+  }
+  .messageinput{
+    width: 38rem;
+  }
+}
+@media  screen and (min-width:1200px)and (max-width:1225px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 43.5rem;
+  }
+  .messages{
+    width: 41.5rem;
+  }
+  .messageinput{
+    width: 37rem;
+  }
+}
+@media  screen and (min-width:1150px)and (max-width:1200px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 43.5rem;
+  }
+  .messages{
+    width: 41.5rem;
+  }
+  .messageinput{
+    width: 37rem;
+  }
+}
+@media  screen and (min-width:1090px)and (max-width:1150px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 42.3rem;
+  }
+  .messages{
+    width: 40.3rem;
+  }
+  .messageinput{
+    width: 35.5rem;
+  }
+}
+@media  screen and (min-width:1025px)and (max-width:1090px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 41rem;
+  }
+  .messages{
+    width: 39rem;
+  }
+  .messageinput{
+    width: 34.5rem;
+  }
+}
+@media  screen and (min-width:985px)and (max-width:1025px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 39.5rem;
+  }
+  .messages{
+    width: 37.5rem;
+  }
+  .messageinput{
+    width: 33rem;
+  }
+}
+@media  screen and (min-width:940px)and (max-width:985px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 38rem;
+  }
+  .messages{
+    width: 36rem;
+  }
+  .messageinput{
+    width: 32rem;
+  }
+}
+@media  screen and (min-width:925px)and (max-width:940px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 37rem;
+  }
+  .messages{
+    width: 35rem;
+  }
+  .messageinput{
+    width: 30rem;
+  }
+}
+@media  screen and (min-width:885px)and (max-width:925px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 36rem;
+  }
+  .messages{
+    width: 34rem;
+  }
+  .messageinput{
+    width: 29rem;
+  }
+}
+@media  screen and (min-width:870px)and (max-width:885px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 35rem;
+  }
+  .messages{
+    width: 33rem;
+  }
+  .messageinput{
+    width: 27.5rem;
+  }
+  .fullsend{
+    transform: translateX(0.5rem);
+    gap: 1.4rem;
+  }
+}
+@media  screen and (min-width:835px)and (max-width:870px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 34rem;
+  }
+  .messages{
+    width: 32rem;
+  }
+  .messageinput{
+    width: 26.5rem;
+  }
+  .fullsend{
+    transform: translateX(0.5rem);
+    gap: 1.35rem;
+  }
+}
+@media  screen and (min-width:810px)and (max-width:835px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 32.5rem;
+  }
+  .messages{
+    width: 30.5rem;
+  }
+  .messageinput{
+    width: 25rem;
+  }
+  .fullsend{
+    transform: translateX(0.5rem);
+    gap: 1.35rem;
+  }
+}
+@media  screen and (min-width:780px)and (max-width:810px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 32rem;
+  }
+  .messages{
+    width: 30rem;
+  }
+  .messageinput{
+    width: 24rem;
+  }
+  .fullsend{
+    transform: translateX(0.5rem);
+    gap: 1.3rem;
+  }
+}
+@media  screen and (min-width:750px)and (max-width:780px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 30.5rem;
+  }
+  .messages{
+    width: 29rem;
+  }
+  .messageinput{
+    width: 23rem;
+  }
+  .fullsend{
+    transform: translateX(0.5rem);
+    gap: 1.25rem;
+  }
+}
+@media  screen and (min-width:730px)and (max-width:750px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 29.5rem;
+  }
+  .messages{
+    width: 28rem;
+  }
+  .messageinput{
+    width: 22.5rem;
+  }
+  .fullsend{
+    transform: translateX(0.4rem);
+    gap: 1.25rem;
+  }
+}
+@media  screen and (min-width:715px)and (max-width:730px){
+  .SingleChat,.chatnamemodal,.damagecontrol{
+    width: 27.5rem;
+  }
+  .messages{
+    width: 26rem;
+  }
+  .messageinput{
+    width: 20.5rem;
+  }
+  .fullsend{
+    transform: translateX(0.4rem);
+    gap: 1.2rem;
+  }
+}
+@media screen and (min-width:700px)and (max-width:715px){
+    #backbox{
+      display: block;
+    } 
+    .SingleChat,.chatnamemodal,.damagecontrol{
+      width: 27.5rem;
+    }
+}

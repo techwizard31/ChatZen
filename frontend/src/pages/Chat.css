@@ -1,0 +1,13 @@
+.fullchat{
+    width: 100%;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
+.invisible{
+  display:none;
+}
+
+

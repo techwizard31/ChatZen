@@ -1,0 +1,44 @@
+.usershort{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    width: 17rem;
+    height: 4rem;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  .userdata{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-top: 0.25rem;
+  }
+  .shortpic {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0.7rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+  .useremail{
+    letter-spacing: 0.5px;
+    width: 12.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .shortname{
+    width: 11rem;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+  }
+  .usershort:hover{
+       transition-duration: 0.4s;
+       scale: 1.05;
+  }
