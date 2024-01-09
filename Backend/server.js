@@ -26,7 +26,7 @@ app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
 
-const server = app.listen(PORT, console.log(`server started at port ${PORT}`));
+const server = app.listen(PORT, console.log("server started at port"));
 
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
